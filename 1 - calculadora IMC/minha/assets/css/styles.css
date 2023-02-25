@@ -1,0 +1,72 @@
+body {
+  background: rgb(78, 142, 236);
+  font: normal 15pt Arial;
+}
+
+header {
+  color:  white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.455);
+}
+
+select{
+  width: 150px;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+input#altura{
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 60px;
+}
+
+input#peso {
+  position: absolute;
+  margin-top: -42px;
+  margin-left: 60px;  
+}
+
+input#calcularbotao{
+  cursor: pointer;
+  
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 12pt;
+
+  width: 80px;
+  height: 30px;
+
+  background: rgb(39, 151, 226);
+  border: none;
+}
+
+input#limparbotao{
+  cursor: pointer;
+  margin-left: 44px;
+  
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 12pt;
+
+  width: 80px;
+  height: 30px;
+
+  background: rgb(39, 151, 226);
+  border: none;
+
+}

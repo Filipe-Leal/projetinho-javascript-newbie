@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Filipe Leal">
+    <title>Calculadora de IMC</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+      <header><h1>Calculadora de IMC</h1></header>
+      <section>
+        <p>Altura</p>
+        <input type="number" name="altura" id="altura" min="0">
+        <p>Peso</p>
+        <input type="number" name="peso" id="peso" min="0">
+        <input type="button" value="Calcular" id="calcularbotao" onclick="calcular()">
+        <input type="button" value="Limpar" id="limparbotao" onclick="limpar()">
+        <div id="saida">
+          
+
+        </div>
+      </section>
+      <footer></footer>
+      <script src="assets/js/script.js"></script>
+  </body>
+</html>
